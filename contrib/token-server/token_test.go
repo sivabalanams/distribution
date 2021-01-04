@@ -10,7 +10,7 @@ import (
 
 	"strings"
 
-	"github.com/docker/distribution/registry/auth"
+	"github.com/sivabalanams/distribution/registry/auth"
 	"github.com/docker/libtrust"
 )
 

@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/manifest"
 )
 
 const (

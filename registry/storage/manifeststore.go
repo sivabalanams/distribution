@@ -5,15 +5,15 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/distribution"
-	dcontext "github.com/docker/distribution/context"
-	"github.com/docker/distribution/manifest"
-	"github.com/docker/distribution/manifest/manifestlist"
-	"github.com/docker/distribution/manifest/ocischema"
-	"github.com/docker/distribution/manifest/schema1"
-	"github.com/docker/distribution/manifest/schema2"
 	"github.com/opencontainers/go-digest"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
+	"github.com/sivabalanams/distribution"
+	dcontext "github.com/sivabalanams/distribution/context"
+	"github.com/sivabalanams/distribution/manifest"
+	"github.com/sivabalanams/distribution/manifest/manifestlist"
+	"github.com/sivabalanams/distribution/manifest/ocischema"
+	"github.com/sivabalanams/distribution/manifest/schema1"
+	"github.com/sivabalanams/distribution/manifest/schema2"
 )
 
 // A ManifestHandler gets and puts manifests of a particular type.

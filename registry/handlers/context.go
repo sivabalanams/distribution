@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/docker/distribution"
-	dcontext "github.com/docker/distribution/context"
-	"github.com/docker/distribution/registry/api/errcode"
-	v2 "github.com/docker/distribution/registry/api/v2"
-	"github.com/docker/distribution/registry/auth"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	dcontext "github.com/sivabalanams/distribution/context"
+	"github.com/sivabalanams/distribution/registry/api/errcode"
+	v2 "github.com/sivabalanams/distribution/registry/api/v2"
+	"github.com/sivabalanams/distribution/registry/auth"
 )
 
 // Context should contain the request specific context for use in across

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/docker/distribution"
 	digest "github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
 )
 
 func TestCacheSet(t *testing.T) {

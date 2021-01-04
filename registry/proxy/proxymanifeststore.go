@@ -4,11 +4,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/docker/distribution"
-	dcontext "github.com/docker/distribution/context"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/proxy/scheduler"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	dcontext "github.com/sivabalanams/distribution/context"
+	"github.com/sivabalanams/distribution/reference"
+	"github.com/sivabalanams/distribution/registry/proxy/scheduler"
 )
 
 // todo(richardscothern): from cache control header or config

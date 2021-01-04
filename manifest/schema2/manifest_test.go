@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/manifest"
 )
 
 var expectedManifestSerialization = []byte(`{

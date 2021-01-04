@@ -5,12 +5,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest"
-	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/storage/driver/inmemory"
 	digest "github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/manifest"
+	"github.com/sivabalanams/distribution/manifest/schema2"
+	"github.com/sivabalanams/distribution/reference"
+	"github.com/sivabalanams/distribution/registry/storage/driver/inmemory"
 )
 
 type tagsTestEnv struct {

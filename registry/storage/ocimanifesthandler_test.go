@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest"
-	"github.com/docker/distribution/manifest/ocischema"
-	"github.com/docker/distribution/registry/storage/driver/inmemory"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/manifest"
+	"github.com/sivabalanams/distribution/manifest/ocischema"
+	"github.com/sivabalanams/distribution/registry/storage/driver/inmemory"
 )
 
 func TestVerifyOCIManifestNonDistributableLayer(t *testing.T) {

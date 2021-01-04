@@ -3,10 +3,10 @@ package cache
 import (
 	"context"
 
-	"github.com/docker/distribution"
-	dcontext "github.com/docker/distribution/context"
-	prometheus "github.com/docker/distribution/metrics"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	dcontext "github.com/sivabalanams/distribution/context"
+	prometheus "github.com/sivabalanams/distribution/metrics"
 )
 
 type cachedBlobStatter struct {

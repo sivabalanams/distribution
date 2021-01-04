@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/storage/driver"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/reference"
+	"github.com/sivabalanams/distribution/registry/storage/driver"
 )
 
 func emit(format string, a ...interface{}) {

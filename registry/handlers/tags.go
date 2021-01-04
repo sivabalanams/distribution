@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/registry/api/errcode"
-	v2 "github.com/docker/distribution/registry/api/v2"
 	"github.com/gorilla/handlers"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/registry/api/errcode"
+	v2 "github.com/sivabalanams/distribution/registry/api/v2"
 )
 
 // tagsDispatcher constructs the tags handler api endpoint.

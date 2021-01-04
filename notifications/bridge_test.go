@@ -3,14 +3,14 @@ package notifications
 import (
 	"testing"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/manifest/schema1"
-	"github.com/docker/distribution/reference"
-	v2 "github.com/docker/distribution/registry/api/v2"
-	"github.com/docker/distribution/uuid"
 	events "github.com/docker/go-events"
 	"github.com/docker/libtrust"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/manifest/schema1"
+	"github.com/sivabalanams/distribution/reference"
+	v2 "github.com/sivabalanams/distribution/registry/api/v2"
+	"github.com/sivabalanams/distribution/uuid"
 )
 
 var (

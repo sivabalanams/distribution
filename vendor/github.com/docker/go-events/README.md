@@ -7,7 +7,7 @@ The Docker `events` package implements a composable event distribution package
 for Go.
 
 Originally created to implement the [notifications in Docker Registry
-2](https://github.com/docker/distribution/blob/master/docs/notifications.md),
+2](https://github.com/sivabalanams/distribution/blob/master/docs/notifications.md),
 we've found the pattern to be useful in other applications. This package is
 most of the same code with slightly updated interfaces. Much of the internals
 have been made available.
@@ -19,7 +19,7 @@ calls to `Sink.Write(event Event)`. Sinks can be wired up in various
 configurations to achieve interesting behavior.
 
 The canonical example is that employed by the
-[docker/distribution/notifications](https://godoc.org/github.com/docker/distribution/notifications)
+[sivabalanams/distribution/notifications](https://godoc.org/github.com/sivabalanams/distribution/notifications)
 package. Let's say we have a type `httpSink` where we'd like to queue
 notifications. As a rule, it should send a single http request and return an
 error if it fails:

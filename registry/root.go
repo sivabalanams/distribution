@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	dcontext "github.com/docker/distribution/context"
-	"github.com/docker/distribution/registry/storage"
-	"github.com/docker/distribution/registry/storage/driver/factory"
-	"github.com/docker/distribution/version"
+	dcontext "github.com/sivabalanams/distribution/context"
+	"github.com/sivabalanams/distribution/registry/storage"
+	"github.com/sivabalanams/distribution/registry/storage/driver/factory"
+	"github.com/sivabalanams/distribution/version"
 	"github.com/docker/libtrust"
 	"github.com/spf13/cobra"
 )

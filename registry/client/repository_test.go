@@ -17,17 +17,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/context"
-	"github.com/docker/distribution/manifest"
-	"github.com/docker/distribution/manifest/schema1"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/api/errcode"
-	v2 "github.com/docker/distribution/registry/api/v2"
-	"github.com/docker/distribution/testutil"
-	"github.com/docker/distribution/uuid"
 	"github.com/docker/libtrust"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/context"
+	"github.com/sivabalanams/distribution/manifest"
+	"github.com/sivabalanams/distribution/manifest/schema1"
+	"github.com/sivabalanams/distribution/reference"
+	"github.com/sivabalanams/distribution/registry/api/errcode"
+	v2 "github.com/sivabalanams/distribution/registry/api/v2"
+	"github.com/sivabalanams/distribution/testutil"
+	"github.com/sivabalanams/distribution/uuid"
 )
 
 func testServer(rrm testutil.RequestResponseMap) (string, func()) {

@@ -7,13 +7,13 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/docker/distribution"
-	"github.com/docker/distribution/reference"
-	"github.com/docker/distribution/registry/storage/cache/memory"
-	"github.com/docker/distribution/registry/storage/driver"
-	"github.com/docker/distribution/registry/storage/driver/inmemory"
-	"github.com/docker/distribution/testutil"
 	"github.com/opencontainers/go-digest"
+	"github.com/sivabalanams/distribution"
+	"github.com/sivabalanams/distribution/reference"
+	"github.com/sivabalanams/distribution/registry/storage/cache/memory"
+	"github.com/sivabalanams/distribution/registry/storage/driver"
+	"github.com/sivabalanams/distribution/registry/storage/driver/inmemory"
+	"github.com/sivabalanams/distribution/testutil"
 )
 
 type setupEnv struct {
